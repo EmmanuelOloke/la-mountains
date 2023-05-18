@@ -62,7 +62,7 @@ const Histrory = () => {
           width="100vw"
           justifyContent="center"
         >
-          <Box width="60%" marginTop="1.5rem" zIndex={50}>
+          <Box width="60%" marginTop="1.5rem">
             <Splide hasTrack={true} aria-label="History Carousel" options={splideOptions}>
               <SplideSlide>
                 <Image src={BackpackMan} alt="man with a backpack" />
