@@ -22,7 +22,7 @@ const Histrory = () => {
       backgroundSize="cover"
       justifyContent="center"
     >
-      <VStack border="1px solid red" justifyContent="space-between">
+      <VStack justifyContent="space-between">
         <VStack gap={0} alignItems="left">
           <HStack position="relative">
             <Text
