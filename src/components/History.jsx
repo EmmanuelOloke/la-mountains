@@ -7,22 +7,6 @@ import '@splidejs/react-splide/css';
 import BackpackMan from '../assets/backpack-slide-img.png';
 import MountainClouds from '../assets/mountain-clouds-slide-img.png';
 
-//._01_ {
-//     font-size: 11.264px;
-//     font-family: "Oswald";
-//     color: rgba(65, 79, 107, 0.502);
-//     font-weight: bold;
-//     line-height: 1.2;
-//     text-align: left;
-//     -moz-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-//     -webkit-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-//     -ms-transform: matrix( 12.0413317551377,0,0,12.0413317551377,0,0);
-//     position: absolute;
-//     left: 395.747px;
-//     top: 1019.242px;
-//     z-index: 86;
-//   }
-
 const Histrory = () => {
   const splideOptions = {
     type: 'loop',
