@@ -1,10 +1,13 @@
-import { Text } from '@chakra-ui/react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import { Box } from '@chakra-ui/react';
 
 function App() {
   return (
-    <>
-      <Text fontFamily="Bebas Neue, san serif">Here we go</Text>
-    </>
+    <Box>
+      <Navbar />
+      <Hero />
+    </Box>
   );
 }
 
