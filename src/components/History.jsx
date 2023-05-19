@@ -17,6 +17,7 @@ const Histrory = () => {
   };
   return (
     <Flex
+      id="history"
       backgroundImage={HistoryBgImage}
       height="900px"
       backgroundSize="cover"
