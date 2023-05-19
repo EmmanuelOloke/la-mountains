@@ -18,25 +18,18 @@ const LAMountains = () => {
         alignItems="center"
         justifyContent="space-between"
       >
-        <Image src={Logo2} alt="LA Mountain" />
+        <Image src={Logo2} alt="LA Mountain" w={{ base: '6rem', sm: '6rem', md: '8rem' }} />
 
         <HStack gap="3rem">
           <Link
             href="#history"
             _hover={{ textDecoration: 'none' }}
+            fontSize={{ base: '0.7rem', sm: '0.7rem', md: '1rem' }}
             fontFamily="Lato"
             fontStyle="italic"
             fontWeight="bold"
             color="#414f6b"
             borderBottom="1.5px solid #414f6b"
-            display={{
-              base: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'flex',
-              xl: 'flex',
-              '2xl': 'flex',
-            }}
           >
             01. HISTORY
           </Link>
@@ -44,19 +37,12 @@ const LAMountains = () => {
           <Link
             href="#climb"
             _hover={{ textDecoration: 'none' }}
+            fontSize={{ base: '0.7rem', sm: '0.7rem', md: '1rem' }}
             fontFamily="Lato"
             fontStyle="italic"
             fontWeight="bold"
             color="#414f6b"
             borderBottom="1.5px solid #414f6b"
-            display={{
-              base: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'flex',
-              xl: 'flex',
-              '2xl': 'flex',
-            }}
           >
             02. TEAM
           </Link>
