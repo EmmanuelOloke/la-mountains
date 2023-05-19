@@ -48,6 +48,7 @@ const Navbar = () => {
         <Box>
           <HStack gap="3rem">
             <Link
+              href="#history"
               _hover={{ textDecoration: 'none' }}
               fontFamily="Lato"
               fontStyle="italic"
@@ -67,6 +68,7 @@ const Navbar = () => {
             </Link>
 
             <Link
+              href="#climb"
               _hover={{ textDecoration: 'none' }}
               fontFamily="Lato"
               fontStyle="italic"
