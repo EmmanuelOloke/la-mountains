@@ -9,7 +9,7 @@ Built using:
 | Name                    | Version | Website/Documentation                          |
 | ----------------------- | ------- | ---------------------------------------------- |
 | ReactJS                 | 18.2.0  | https://react.dev/                             |
-| Chakra-UI               | 2.5.3   | https://www.chakra-ui.com                      |
+| Chakra-UI               | 2.6.1   | https://www.chakra-ui.com                      |
 | SplideJS (React Splide) | 0.7.12  | https://splidejs.com/integration/react-splide/ |
 
 ## Getting Started
