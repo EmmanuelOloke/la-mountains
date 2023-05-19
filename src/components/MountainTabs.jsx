@@ -16,7 +16,7 @@ import Mountain2 from '../assets/mountain2.png';
 const MountainTabs = () => {
   return (
     <Tabs variant="unstyled">
-      <TabList background="#414f6b" color="#b0b4be" paddingLeft="15rem">
+      <TabList background="#414f6b" color="#b0b4be" paddingLeft={{ base: '1rem', md: '15rem' }}>
         <Tab _selected={{ color: '#414f6b', bg: '#b0b4be' }}>
           <Text fontFamily="Bebas Neue, sans-serif" borderBottom="1px solid #414f6b">
             MOUNTAIN 1
@@ -46,7 +46,7 @@ const MountainTabs = () => {
             opacity="0.8"
             position="absolute"
             top="80px"
-            left="310px"
+            left="30px"
             justifyContent="center"
             alignItems="center"
           >
