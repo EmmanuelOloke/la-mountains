@@ -1,6 +1,6 @@
 import { Box, Image } from '@chakra-ui/react';
 import HeroImage from '../assets/hero-bg.png';
-import HeroImageMobile from '../assets/hero-bg-mobile.png';
+import HeroImageMobile from '../assets/Hero-Image.png';
 
 const Hero = () => {
   return (
