@@ -46,7 +46,7 @@ const MountainTabs = () => {
             opacity="0.8"
             position="absolute"
             top="80px"
-            left="30px"
+            left={{ base: '30px', md: '310px' }}
             justifyContent="center"
             alignItems="center"
           >
@@ -93,7 +93,7 @@ const MountainTabs = () => {
             opacity="0.8"
             position="absolute"
             top="80px"
-            left="310px"
+            left={{ base: '30px', md: '310px' }}
             justifyContent="center"
             alignItems="center"
           >

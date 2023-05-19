@@ -18,9 +18,15 @@ const Footer = () => {
         alignItems="center"
         justifyContent="space-between"
       >
-        <Image src={FooterLogo} alt="LA Mountain" />
+        <Image src={FooterLogo} alt="LA Mountain" w={{ base: '6rem', sm: '6rem', md: '8rem' }} />
 
-        <Text fontFamily="Lato" fontStyle="italic" color="rgb(99, 118, 157)" fontWeight="bold">
+        <Text
+          fontFamily="Lato"
+          fontStyle="italic"
+          color="rgb(99, 118, 157)"
+          fontWeight="bold"
+          fontSize={{ base: '0.7rem', sm: '0.7rem', md: '1rem' }}
+        >
           COPYRIGHT 2016. ALL RIGHTS RESERVED
         </Text>
       </HStack>
