@@ -22,6 +22,7 @@ const LAMountains = () => {
 
         <HStack gap="3rem">
           <Link
+            href="#history"
             _hover={{ textDecoration: 'none' }}
             fontFamily="Lato"
             fontStyle="italic"
@@ -41,6 +42,7 @@ const LAMountains = () => {
           </Link>
 
           <Link
+            href="#climb"
             _hover={{ textDecoration: 'none' }}
             fontFamily="Lato"
             fontStyle="italic"
