@@ -14,7 +14,7 @@ Built using:
 
 ## Getting Started
 
-Had a lot of fun building this project.
+I really enjoyed building this project.
 
 You can run this project by following the procedures below:
 
